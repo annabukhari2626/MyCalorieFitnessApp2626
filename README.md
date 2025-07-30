@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+# 🍎 FitTrack – Your Pocket Fitness & Calorie Buddy
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **FitTrack** – a beautifully designed calorie tracking app built with **React Native** (Expo). Track your meals, view nutritional info, and stay on top of your fitness game — one healthy choice at a time! 🏋️‍♀️🥗
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 🚀 Splash screen with logo & gradient background
+- 🔐 Sign-in screen to begin your journey
+- 🍎 Food selection screen (Apple, Banana, Egg, Grapes, Strawberries)
+- 📊 Nutritional detail cards (Calories, Water, Sugar, Fiber)
+- 📋 Summary screen showing healthy eating tips
+- ⭐ "Rate It" screen to collect user feedback
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📱 Screenshots
 
-In the output, you'll find options to open the app in a
+| Splash Screen | Sign-In Screen |
+|---------------|----------------|
+| ![Splash](./assets/screenshots/splash.jpg) | ![SignIn](./assets/screenshots/signin.jpg) |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Food Items | More Food Items |
+|-------------|-----------------|
+| ![FoodItems](./assets/screenshots/fooditems.jpg) | ![FoodItems2](./assets/screenshots/fooditems2.jpg) |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Product Detail | Health Tips (Summary) |
+|----------------|------------------------|
+| ![Details](./assets/screenshots/productdetail.jpg) | ![HealthTips](./assets/screenshots/healthtips.jpg) |
 
-## Get a fresh project
+| Rating Screen |
+|----------------|
+| ![Rating](./assets/screenshots/rating.jpg) |
 
-When you're ready, run:
+---
+
+## 🛠 Tech Stack
+
+- React Native (Expo)
+- JavaScript + Functional Components
+- React Hooks: `useState`
+- Gradient backgrounds and image cards
+- Simple state-based screen switching
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run reset-project
-```
+├── app/
+│   ├── index.js
+│   ├── SplashScreen.jsx
+│   ├── SignSreen.jsx
+│   ├── CounterCalorieScreen.jsx
+│   ├── FoodDetailScreen.jsx
+│   ├── Summary.jsx
+│   └── Rate.jsx
+│
+├── assets/
+│   └── images/
+│       ├── apple.jpg
+│       ├── banana.jpg
+│       ├── grapes.jpg
+│       ├── egg.jpg
+│       ├── stawberry.jpg
+│       ├── logo.jpg
+│       └── ratei.jpg
+│
+│   └── screenshots/
+│       ├── splash.jpg
+│       ├── signin.jpg
+│       ├── fooditems.jpg
+│       ├── fooditems2.jpg
+│       ├── productdetail.jpg
+│       ├── healthtips.jpg
+│       └── rating.jpg
+│
+├── .gitignore
+├── .gitattributes
+├── package.json
+└── README.md
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
